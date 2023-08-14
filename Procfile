@@ -1,1 +1,1 @@
-Aarohi: python3 main.py
+Alone: python3 main.py
