@@ -328,9 +328,9 @@ async def aloneprivatesticker(client: Client, message: Message):
            is_text = chatai.find_one({"text": hey})
            Yo = is_text['check']
            if Yo == "text":
-               await message.reply_text(f"{hey}")
+               await message.reply_text(f"{hey}"𝗥)
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"❣️𝗔𝗔𝗥𝗢𝗛𝗜 𝗖𝗛𝗔𝗧𝗕𝗢𝗧💝𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗❣️ ")      
+print(f"❣️𝗔𝗟𝗢𝗡𝗘 𝗖𝗛𝗔𝗧𝗕𝗢𝗧💝𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗❣️ ")      
 bot.run()
