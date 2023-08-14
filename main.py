@@ -66,7 +66,7 @@ async def restart(client, m: Message):
     & ~filters.private)
 async def chatbotofd(client, message):
     Alonedb = MongoClient(MONGO_URL)    
-    alone = ALONE db["Alone Db"]["Alone"]     
+    alone = Alonedb["AloneDb"]["Alone"]     
     if message.from_user:
         user = message.from_user.id
         chat_id = message.chat.id
