@@ -148,7 +148,7 @@ async def aloneai(client: Client, message: Message):
                    await message.reply_text(f"{hey}")
    
    if message.reply_to_message:  
-       ALONE db = MongoClient(MONGO_URL)
+       Alonedb = MongoClient(MONGO_URL)
        alone = Alonedb["AloneDb"]["Alone"] 
        is_alone = alone.find_one({"chat_id": message.chat.id})    
        getme = await bot.get_me()
