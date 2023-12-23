@@ -10,8 +10,8 @@ import time
 from datetime import datetime
 #from database.users_chats_db import db
 
-API_ID = "14050586"
-API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
+API_ID = "21846639"
+API_HASH = "2cebc99bd8378b5237b31ea8e7496d79"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
@@ -59,7 +59,7 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
     await asyncio.sleep(0.2)
-    await accha.edit("𝙷ᴇʟʟᴏ ɢᴜʏs ᴛʜɪs ɪs ❥≛⃝🥀ᴀʟᴏɴᴇ ᴘʀᴏ ᴄᴏᴅᴇʀ』⃝⛓️❤️. ᴡʜɪᴄʜ ɪs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏʀᴏɢʀᴀᴍ...ʏᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀs ᴀ ᴄʜᴀᴛ ʙᴏᴛ...sᴜᴘᴘᴏʀᴛ :- @AlonesHeaven ")
+    await accha.edit("𝙷ᴇʟʟᴏ ɢᴜʏs ᴛʜɪs ɪs ❥≛⃝🥀ᴀᴍᴇʟɪᴀ ✘Ꭰ⛓️❤️. ᴡʜɪᴄʜ ɪs ᴡʀɪᴛᴛᴇɴ ɪɴ ᴘʏʀᴏɢʀᴀᴍ...ʏᴏᴜ ᴄᴀɴ ʏᴏᴜ ᴛʜɪs ʙᴏᴛ ɪɴ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴀs ᴀ ᴄʜᴀᴛ ʙᴏᴛ...sᴜᴘᴘᴏʀᴛ :- @FallenXDeveloper ")
        
 @bot.on_message(
     filters.command(["chatbot off", f"chatbot@{BOT_USERNAME} off"], prefixes=["/", ".", "?", "-"])
@@ -332,5 +332,5 @@ async def aloneprivatesticker(client: Client, message: Message):
            if not Yo == "text":
                await message.reply_sticker(f"{hey}")
 
-print(f"❣️𝗔𝗟𝗢𝗡𝗘 𝗖𝗛𝗔𝗧𝗕𝗢𝗧💝𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗❣️ ")      
+print(f"❣️𝐕𝐈𝐋𝐋𝐈𝐀𝐍 𝐗 𝐏𝐋𝐀𝐘𝐄𝐑💝𝗜𝗦 𝗦𝗧𝗔𝗥𝗧𝗘𝗗❣️ ")      
 bot.run()
