@@ -7,9 +7,23 @@ import nltk
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 from nltk.tokenize import word_tokenize
 import pymongo
+#from database.users_chats_db import db
 
-# Initialize the Pyrogram bot client
-bot = Client("LisaChatBot", api_id=21846639, api_hash=2cebc99bd8378b5237b31ea8e7496d79, bot_token=6329744151:AAEohfxOdNzETzCVQxgbjRzCtcNy2CxXgwQ)
+API_ID = "14050586"
+API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
+BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
+MONGO_URL = "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_NAME = os.environ.get("DATABASE_NAME") 
+BOT_USERNAME = os.environ.get("BOT_USERNAME")
+BOT_NAME = os.environ.get("BOT_NAME")
+ADMINS = os.environ.get("ADMINS")
+
+bot = Client(
+    "LisaChatBot" ,
+    api_id = API_ID,
+    api_hash = API_HASH ,
+    bot_token = BOT_TOKEN
+)
 
 # Developer's information
 developer_name = "VILLIAN"  # As per your input
