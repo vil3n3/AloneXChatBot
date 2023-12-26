@@ -9,8 +9,8 @@ from nltk.tokenize import word_tokenize
 import pymongo
 #from database.users_chats_db import db
 
-API_ID = "14050586"
-API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
+API_ID = "21846639"
+API_HASH = "2cebc99bd8378b5237b31ea8e7496d79"
 BOT_TOKEN = os.environ.get("BOT_TOKEN", None) 
 MONGO_URL = "mongodb+srv://hnyx:wywyw2@cluster0.9dxlslv.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = os.environ.get("DATABASE_NAME") 
@@ -84,7 +84,7 @@ async def naughty_start_command_handler(client, m):
     await asyncio.sleep(0.1)
     await accha.edit("𝐒𝐭𝐚𝐫𝐭𝐞𝐝.✓")
     await asyncio.sleep(0.2)
-    await accha.edit("𝙷ᴇʟʟᴏ ɢᴜʏs ᴛʜɪs ɪs ʟɪᴤᴀ ʏᴏᴜʀ ɢɪʀʟᴈʀɪᴇɴᴅ ꝛᴏʙᴏᴛ⛓️❤️...sᴜᴘᴘᴏʀᴛ :- @AlonesHeaven "
+    await accha.edit("𝙷ᴇʟʟᴏ ɢᴜʏs ᴛʜɪs ɪs ʟɪᴤᴀ ʏᴏᴜʀ ɢɪʀʟᴈʀɪᴇɴᴅ ꝛᴏʙᴏᴛ⛓️❤️...sᴜᴘᴘᴏʀᴛ :- @FallenXDeveloper ")
 
 @bot.on_message(
     filters.command(["chatbot on", f"chatbot@{Lisa_ChatBot} on"], prefixes=["/", ".", "?", "-"])
